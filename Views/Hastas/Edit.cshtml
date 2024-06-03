@@ -1,0 +1,49 @@
+﻿@model Internet_Programlama_Final_Work.Models.Hasta
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Hasta</h4>
+<hr />
+<div class="row">
+    <div class="col-md-10">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="AdSoyad" class="control-label"></label>
+                <input asp-for="AdSoyad" class="form-control" />
+                <span asp-validation-for="AdSoyad" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Yas" class="control-label"></label>
+                <input asp-for="Yas" class="form-control" />
+                <span asp-validation-for="Yas" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SorumluDoktorId" class="control-label"></label>
+                <select asp-for="SorumluDoktorId" class="form-control" asp-items="ViewBag.SorumluDoktorId"></select>
+                <span asp-validation-for="SorumluDoktorId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SorumluHemsireId" class="control-label"></label>
+                <select asp-for="SorumluHemsireId" class="form-control" asp-items="ViewBag.SorumluHemsireId"></select>
+                <span asp-validation-for="SorumluHemsireId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

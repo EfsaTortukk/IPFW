@@ -1,0 +1,58 @@
+﻿@model Internet_Programlama_Final_Work.Models.Sonuc
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<style>
+    .details-container {
+        padding: 20px;
+        background-color: #f8f9fa;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+
+    .details-title {
+        margin-bottom: 20px;
+    }
+
+    .details-row {
+        margin-bottom: 10px;
+    }
+</style>
+
+<div class="details-container">
+    <h1 class="details-title">Details</h1>
+
+    <div class="details-row">
+        <dt>@Html.DisplayNameFor(model => model.Tarih)</dt>
+        <dd>@Html.DisplayFor(model => model.Tarih)</dd>
+    </div>
+
+    <div class="details-row">
+        <dt>@Html.DisplayNameFor(model => model.FotografDosyasi)</dt>
+        <dd>@Html.DisplayFor(model => model.FotografDosyasi)</dd>
+    </div>
+
+    <div class="details-row">
+        <dt>@Html.DisplayNameFor(model => model.Hasta)</dt>
+        <dd>@Html.DisplayFor(model => model.Hasta.Id)</dd>
+    </div>
+
+    <div class="details-row">
+        <dt>@Html.DisplayNameFor(model => model.Doktor)</dt>
+        <dd>@Html.DisplayFor(model => model.Doktor.Id)</dd>
+    </div>
+
+    <div class="details-row">
+        <dt>@Html.DisplayNameFor(model => model.Hemsire)</dt>
+        <dd>@Html.DisplayFor(model => model.Hemsire.Id)</dd>
+    </div>
+
+    <div>
+        <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+        <a asp-action="Index">Back to List</a>
+    </div>
+</div>
+
+<link rel="stylesheet" href="~/css/site.css" />

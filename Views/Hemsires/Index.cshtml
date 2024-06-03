@@ -1,0 +1,87 @@
+﻿@model IEnumerable<Internet_Programlama_Final_Work.Models.Hemsire>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<link rel="stylesheet" href="~/css/site.css" />
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
+
+<div class="row mb-4">
+    <div class="col-md-4">
+        <form asp-action="Index" method="get" class="form-inline">
+            <input type="text" name="searchString" value="@ViewData["CurrentFilter"]" class="form-control mr-2" placeholder="Search" />
+            <button type="submit" class="btn btn-secondary">Search</button>
+        </form>
+    </div>
+</div>
+
+<table class="table table-bordered table-striped table-hover">
+    <thead class="thead-dark">
+        <tr>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["NameSortParm"]" class="text-white">
+                    @Html.DisplayNameFor(model => model.AdSoyad)
+                    @if (ViewData["NameSortParm"] as string == "name_desc")
+                    {
+                        <span>&#9660;</span> <!-- Küçük aşağı ok işareti -->
+                    }
+                    else
+                    {
+                        <span>&#9650;</span> <!-- Küçük yukarı ok işareti -->
+                    }
+                </a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["DepartmentSortParm"]" class="text-white">
+                    @Html.DisplayNameFor(model => model.Bölüm)
+                    @if (ViewData["DepartmentSortParm"] as string == "department_desc")
+                    {
+                        <span>&#9660;</span> <!-- Küçük aşağı ok işareti -->
+                    }
+                    else
+                    {
+                        <span>&#9650;</span> <!-- Küçük yukarı ok işareti -->
+                    }
+                </a>
+            </th>
+            <th>@Html.DisplayNameFor(model => model.Telefon)</th>
+            <th>@Html.DisplayNameFor(model => model.Email)</th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["DateSortParm"]" class="text-white">
+                    @Html.DisplayNameFor(model => model.İşeBaşlamaTarihi)
+                    @if (ViewData["DateSortParm"] as string == "date_desc")
+                    {
+                        <span>&#9660;</span> <!-- Küçük aşağı ok işareti -->
+                    }
+                    else
+                    {
+                        <span>&#9650;</span> <!-- Küçük yukarı ok işareti -->
+                    }
+                </a>
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.AdSoyad)</td>
+                <td>@Html.DisplayFor(modelItem => item.Bölüm)</td>
+                <td>@Html.DisplayFor(modelItem => item.Telefon)</td>
+                <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                <td>@Html.DisplayFor(modelItem => item.İşeBaşlamaTarihi)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Edit</a>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-info">Details</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

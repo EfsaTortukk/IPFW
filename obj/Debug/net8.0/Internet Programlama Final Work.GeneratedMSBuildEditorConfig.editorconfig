@@ -1,0 +1,183 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Internet_Programlama_Final_Work
+build_property.RootNamespace = Internet_Programlama_Final_Work
+build_property.ProjectDir = C:\Users\efsa0\source\repos\Internet Programlama Final Work\Internet Programlama Final Work\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\efsa0\source\repos\Internet Programlama Final Work\Internet Programlama Final Work
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/Doktors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9rdG9yc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/Doktors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9rdG9yc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/Doktors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9rdG9yc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/Doktors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9rdG9yc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/Doktors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9rdG9yc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/Hastas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFzdGFzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/Hastas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFzdGFzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/Hastas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFzdGFzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/Hastas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFzdGFzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/Hastas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFzdGFzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/Hemsires/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVtc2lyZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/Hemsires/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVtc2lyZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/Hemsires/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVtc2lyZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/Hemsires/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVtc2lyZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/Hemsires/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVtc2lyZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/LabAdres/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFiQWRyZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/LabAdres/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFiQWRyZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/LabAdres/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFiQWRyZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/LabAdres/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFiQWRyZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/LabAdres/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFiQWRyZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/Shared/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/Shared/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/Sonucs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29udWNzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/Sonucs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29udWNzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/Sonucs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29udWNzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/Sonucs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29udWNzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/Sonucs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29udWNzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/TestTurs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFR1cnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/TestTurs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFR1cnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/TestTurs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFR1cnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/TestTurs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFR1cnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/TestTurs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFR1cnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/efsa0/source/repos/Internet Programlama Final Work/Internet Programlama Final Work/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-uui2v0g7l7

@@ -1,0 +1,49 @@
+﻿@model Internet_Programlama_Final_Work.Models.LabAdres
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>LabAdres</h4>
+<hr />
+<div class="row">
+    <div class="col-md-10">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Ad" class="control-label"></label>
+                <input asp-for="Ad" class="form-control" />
+                <span asp-validation-for="Ad" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="KoridorNo" class="control-label"></label>
+                <input asp-for="KoridorNo" class="form-control" />
+                <span asp-validation-for="KoridorNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="KatNo" class="control-label"></label>
+                <input asp-for="KatNo" class="form-control" />
+                <span asp-validation-for="KatNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TelefonNo" class="control-label"></label>
+                <input asp-for="TelefonNo" class="form-control" />
+                <span asp-validation-for="TelefonNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
